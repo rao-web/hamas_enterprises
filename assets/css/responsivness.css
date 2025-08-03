@@ -1,0 +1,351 @@
+/* /////////////////////////////////////////////////////////////////RESPONSIVE STYLES///////////////////////////////////////////////////////////////// */
+
+/* /////////////////////////////////////////////////////////////////GENERAL RESPONSIVE ADJUSTMENTS///////////////////////////////////////////////////////////////// */
+@media (max-width: 1200px) {
+    .contentBox h1,
+    .sec2 h2 {
+        font-size: 3rem !important;
+    }
+    
+    .sec1 h2,
+    .sec3 h2 {
+        font-size: 3.5rem !important;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////TABLET AND SMALL DESKTOP (992px - 768px)///////////////////////////////////////////////////////////////// */
+@media (max-width: 992px) {
+    /* Header/Navbar Adjustments */
+    .navbar-brand {
+        height: 4rem;
+        width: 4rem;
+    }
+    
+    .navbar-light .navbar-brand {
+        font-size: 2rem;
+    }
+    
+    /* Hero Section */
+    .banner {
+        padding-top: 6rem;
+    }
+    
+    .contentBox h1 {
+        font-size: 2.5rem !important;
+    }
+    
+    .contentBox p {
+        font-size: 1rem !important;
+    }
+    
+    /* Services Section */
+    .sec1 h2,
+    .sec3 h2 {
+        font-size: 3rem !important;
+    }
+    
+    /* Why Choose Us Section */
+    .sec2 h2 {
+        font-size: 2.5rem !important;
+    }
+    
+    .img-size {
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    /* Product Portfolio */
+    .card-row {
+        flex-wrap: wrap;
+    }
+    
+    .card-row .custom-card {
+        width: 48% !important;
+        margin-bottom: 20px;
+    }
+    
+    /* Data Center Services */
+    .card-flex {
+        flex-wrap: wrap;
+    }
+    
+    .service-box {
+        width: 48% !important;
+        margin-bottom: 20px;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////TABLET PORTRAIT (768px - 576px)///////////////////////////////////////////////////////////////// */
+@media (max-width: 768px) {
+    /* Header/Navbar */
+    .navbar-collapse {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 20px;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: #0046a8 !important;
+        text-align: left;
+        padding: 10px 0;
+    }
+    
+    /* Hero Section */
+    .banner {
+        padding-top: 5rem;
+    }
+    
+    .contentBox h1 {
+        font-size: 2rem !important;
+        margin-top: 1rem !important;
+    }
+    
+    .feature-content {
+        white-space: normal !important;
+    }
+    
+    /* Services Section */
+    .sec1,
+    .sec3 {
+        padding: 60px 0 !important;
+    }
+    
+    .sec1 h2,
+    .sec3 h2 {
+        font-size: 2.5rem !important;
+    }
+    
+    /* Why Choose Us Section */
+    .sec2 {
+        padding: 40px 0 !important;
+    }
+    
+    .sec2 .btn-wrapper {
+        justify-content: center !important;
+    }
+    
+    /* Product Portfolio */
+    .products-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .products-content {
+        padding: 1.5rem !important;
+    }
+    
+    /* Data Center Services */
+    .highlight-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .highlight-text {
+        padding: 1.5rem !important;
+    }
+    
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: 1fr 1fr !important;
+    }
+    
+    .footer-company {
+        grid-column: span 2 !important;
+    }
+    
+    .footer-contact-bar {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .contact-box {
+        justify-content: flex-start !important;
+        margin-bottom: 20px;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////MOBILE LANDSCAPE (576px - 480px)///////////////////////////////////////////////////////////////// */
+@media (max-width: 576px) {
+    /* General Adjustments */
+    p {
+        font-size: 1rem !important;
+    }
+    
+    /* Hero Section */
+    .contentBox h1 {
+        font-size: 1.8rem !important;
+    }
+    
+    .feature-row {
+        flex-direction: column;
+    }
+    
+    .button-group {
+        margin-top: 15px;
+        justify-content: center;
+    }
+    
+    /* Services Section */
+    .sec1 h2,
+    .sec3 h2 {
+        font-size: 2rem !important;
+    }
+    
+    /* Why Choose Us Section */
+    .sec2 .row {
+        flex-direction: column-reverse;
+    }
+    
+    .sec2 .col-lg-6 {
+        margin-bottom: 30px;
+    }
+    
+    .btnD4,
+    .btnD5 {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-top: 10px !important;
+    }
+    
+    /* Product Portfolio */
+    .card-row .custom-card {
+        width: 100% !important;
+    }
+    
+    .products-title {
+        font-size: 1.5rem !important;
+    }
+    
+    /* Data Center Services */
+    .service-box {
+        width: 100% !important;
+    }
+    
+    .highlight-title {
+        font-size: 1.5rem !important;
+    }
+    
+    /* Transform Section */
+    .sec4-title {
+        font-size: 2rem !important;
+    }
+    
+    .sec4-subtitle {
+        font-size: 1rem !important;
+    }
+    
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .footer-company {
+        grid-column: span 1 !important;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-policies {
+        margin-top: 15px;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////SMALL MOBILE DEVICES (480px and below)///////////////////////////////////////////////////////////////// */
+@media (max-width: 480px) {
+    /* Hero Section */
+    .contentBox h1 {
+        font-size: 1.5rem !important;
+    }
+    
+    .contentBox p {
+        font-size: 0.9rem !important;
+    }
+    
+    /* Services Section */
+    .sec1 h2,
+    .sec3 h2 {
+        font-size: 1.8rem !important;
+    }
+    
+    /* Why Choose Us Section */
+    .sec2 h2 {
+        font-size: 1.8rem !important;
+    }
+    
+    /* Transform Section */
+    .sec4-title {
+        font-size: 1.8rem !important;
+    }
+    
+    .sec4-buttons {
+        flex-direction: column;
+    }
+    
+    .btn-primary,
+    .btn-secondary2 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    /* Footer */
+    .footer-description {
+        font-size: 1rem !important;
+    }
+    
+    .footer-heading {
+        font-size: 1.1rem !important;
+    }
+    
+    .footer-links a {
+        font-size: 0.9rem !important;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////VERY SMALL MOBILE DEVICES (360px and below)///////////////////////////////////////////////////////////////// */
+@media (max-width: 360px) {
+    /* Hero Section */
+    .contentBox h1 {
+        font-size: 1.3rem !important;
+    }
+    
+    /* Buttons */
+    .btnD1,
+    .btnD2,
+    .btnD3,
+    .btnD4,
+    .btnD5 {
+        padding: 10px 15px !important;
+        font-size: 0.9rem !important;
+    }
+    
+    /* Footer */
+    .footer-policies {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////SPECIAL CASES - LANDSCAPE ORIENTATION///////////////////////////////////////////////////////////////// */
+@media (max-height: 480px) and (orientation: landscape) {
+    .banner {
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 50px;
+    }
+    
+    .contentBox {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+/* /////////////////////////////////////////////////////////////////HIGH DPI DEVICES///////////////////////////////////////////////////////////////// */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    /* Ensure high-res assets are used */
+    .navbar-brand,
+    .logo-img {
+        background-size: contain;
+    }
+}
